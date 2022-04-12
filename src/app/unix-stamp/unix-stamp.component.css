@@ -1,0 +1,73 @@
+@font-face {
+  font-family: seven-segment;
+  src: url(../../assets/fonts/seven_Segment.ttf);
+}
+
+.main {
+  box-sizing: border-box;
+  border: 4px solid rgb(55, 195, 37);
+  padding: 5px;
+  font-weight: bold;
+  background-color: #2e443d;
+  font-size: 20px;
+  color: white;
+
+  font-family: "Times New Roman", Times, serif;
+
+  font-weight: bold;
+
+  margin: 20px;
+  line-height: 2rem;
+}
+
+.option {
+  margin-top: 10px;
+  width: 60px;
+  height: 20px;
+  background-color: rgb(103, 166, 224);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h3 {
+  font-size: 20px;
+  color: red;
+  font-family: seven-segment;
+}
+h4 {
+  font-size: 20px;
+  color: white;
+  font-family: seven-segment;
+}
+h2 {
+  font-size: 20px;
+  color: green;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h5 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: greem;
+}
+input {
+  display: block;
+  margin-bottom: 0px;
+  height: 30px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+  display: block;
+  border: 3px solid 2e443d;
+  padding: 10px;
+  border-radius: 20px;
+  width: 12rem;
+  font-weight: bold;
+
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: green;
+}
